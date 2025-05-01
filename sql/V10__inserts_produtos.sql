@@ -1,14 +1,14 @@
 -- V10__inserts_produtos.sql
 
 -- Inserções de dados iniciais na tabela produtos
-INSERT INTO produtos (nome, preco, estoque) VALUES 
-('Notebook Dell', 4200.00, 10),
-('Mouse Logitech', 120.00, 100),
-('Teclado Mecânico Redragon', 250.00, 50),
-('Monitor LG 24"', 980.00, 20),
-('HD Externo 1TB', 350.00, 30),
-('Webcam Full HD', 200.00, 40),
-('Fone de Ouvido JBL', 150.00, 60),
-('Impressora HP Deskjet', 470.00, 15),
-('Cadeira Gamer', 850.00, 5),
-('Pendrive 64GB', 60.00, 200);
+-- Flyway Version 10 Migration: Inserir dados na tabela produtos
+
+-- Inserindo dados de exemplo
+INSERT INTO produtos (nome, preco) 
+VALUES 
+('Produto A', 100.00),
+('Produto B', 150.50),
+('Produto C', 200.75),
+('Produto D', 50.99),
+('Produto E', 300.40);
+
